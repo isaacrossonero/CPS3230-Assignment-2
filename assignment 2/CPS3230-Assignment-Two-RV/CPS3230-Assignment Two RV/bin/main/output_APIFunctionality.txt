@@ -1,0 +1,18 @@
+[apiFunctionalityProperty]AUTOMATON::> apiFunctionalityProperty() STATE::>apiInitialised
+[apiFunctionalityProperty]MOVED ON METHODCALL: void main.Runner.uploadCorrectAlert() TO STATE::> alertUploaded
+[apiFunctionalityProperty]AUTOMATON::> apiFunctionalityProperty() STATE::>alertUploaded
+[apiFunctionalityProperty]MOVED ON METHODCALL: void main.Runner.uploadCorrectAlert() TO STATE::> alertUploaded
+[apiFunctionalityProperty]AUTOMATON::> apiFunctionalityProperty() STATE::>alertUploaded
+[apiFunctionalityProperty]MOVED ON METHODCALL: void main.Runner.uploadCorrectAlert() TO STATE::> alertUploaded
+[apiFunctionalityProperty]AUTOMATON::> apiFunctionalityProperty() STATE::>alertUploaded
+[apiFunctionalityProperty]MOVED ON METHODCALL: void main.Runner.uploadCorrectAlert() TO STATE::> alertUploaded
+[apiFunctionalityProperty]AUTOMATON::> apiFunctionalityProperty() STATE::>alertUploaded
+[apiFunctionalityProperty]MOVED ON METHODCALL: void main.Runner.uploadCorrectAlert() TO STATE::> alertUploaded
+[apiFunctionalityProperty]AUTOMATON::> apiFunctionalityProperty() STATE::>alertUploaded
+[apiFunctionalityProperty]MOVED ON METHODCALL: void main.Runner.purgeAlerts() TO STATE::> alertsPurged
+[apiFunctionalityProperty]AUTOMATON::> apiFunctionalityProperty() STATE::>alertsPurged
+[apiFunctionalityProperty]MOVED ON METHODCALL: void main.Runner.uploadCorrectAlert() TO STATE::> alertUploaded
+[apiFunctionalityProperty]AUTOMATON::> apiFunctionalityProperty() STATE::>alertUploaded
+[apiFunctionalityProperty]MOVED ON METHODCALL: void main.Runner.purgeAlerts() TO STATE::> alertsPurged
+[apiFunctionalityProperty]AUTOMATON::> apiFunctionalityProperty() STATE::>alertsPurged
+[apiFunctionalityProperty]MOVED ON METHODCALL: void main.Runner.uploadCorrectAlert() TO STATE::> alertUploaded

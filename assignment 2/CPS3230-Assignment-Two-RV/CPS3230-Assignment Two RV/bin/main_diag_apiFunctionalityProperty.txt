@@ -1,0 +1,16 @@
+digraph _logic_apiFunctionalityProperty {
+rankdir=LR;
+node [shape = circle]; alertUploaded alertsPurged apiInitialised;
+node [shape = octagon]; badState;
+node [shape = point]; _s_s;
+_s_s -> apiInitialised;
+badState -> alertsPurged [ label = "(1) purgeAlerts\\\\numberOfAlerts = 0 ; "];
+badState -> badState [ label = "(2) uploadCorrectAlert\\numberOfAlerts >= 5 \\numberOfAlerts ++ ; "];
+apiInitialised -> alertUploaded [ label = "(1) uploadCorrectAlert\\numberOfAlerts < 5 \\numberOfAlerts ++ ; "];
+apiInitialised -> alertsPurged [ label = "(2) purgeAlerts\\\\numberOfAlerts = 0 ; "];
+alertUploaded -> alertUploaded [ label = "(1) uploadCorrectAlert\\numberOfAlerts < 5 \\numberOfAlerts ++ ; "];
+alertUploaded -> alertsPurged [ label = "(2) purgeAlerts\\\\numberOfAlerts = 0 ; "];
+alertUploaded -> badState [ label = "(3) uploadCorrectAlert\\numberOfAlerts == 5 \\numberOfAlerts ++ ; "];
+alertsPurged -> alertsPurged [ label = "(1) purgeAlerts\\\\numberOfAlerts = 0 ; "];
+alertsPurged -> alertUploaded [ label = "(2) uploadCorrectAlert\\numberOfAlerts == 0 \\numberOfAlerts ++ ; "];
+}
